@@ -4,5 +4,6 @@ plotly
 statsmodels
 numpy
 st_pages
-st_aggrid
+streamlit_aggrid
+
 
