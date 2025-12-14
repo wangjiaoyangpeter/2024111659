@@ -1,0 +1,7 @@
+streamlit
+st-pages
+pandas
+plotly
+statsmodels
+numpy
+st-aggrid
