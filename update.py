@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-import st_aggrid
 import plotly.express as px
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 from dataset import DatabaseManager
@@ -259,4 +258,5 @@ def inventory_management_page():
                     st.error(f"批量调整失败：{e}")
                     log_action(current_user, "UPDATE", "inventory", None, f"批量调整失败：{str(e)}")
                 finally:
+
                     cursor.close()
