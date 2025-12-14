@@ -3,4 +3,5 @@ pandas
 plotly
 statsmodels
 numpy
+st_pages
 
